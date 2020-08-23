@@ -1,10 +1,13 @@
+using System.Collections.Generic;
 
+using JosephCode.Models;
 
-namespace JosephCode.Models
+namespace JosephCode.Dtos.PackDto
 {
-    public class Wolve
+    public class AddWolvetoPackDto
     {
-        public int Id {get;set;}
+        
+       public int Id {get;set;}
 
         public string Name {get;set;}
 
@@ -16,6 +19,7 @@ namespace JosephCode.Models
 
         public double Logitude {get;set;}
 
-        public Pack Pack {get;set;}
+        public int PackId {get;set;}
+        
     }
 }

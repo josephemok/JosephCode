@@ -1,9 +1,8 @@
-
-
-namespace JosephCode.Models
+namespace JosephCode.Dtos.WolvesDtos
 {
-    public class Wolve
+    public class UpDateWolveDto
     {
+        
         public int Id {get;set;}
 
         public string Name {get;set;}
@@ -15,7 +14,5 @@ namespace JosephCode.Models
         public double Latitide {get;set;}
 
         public double Logitude {get;set;}
-
-        public Pack Pack {get;set;}
     }
 }

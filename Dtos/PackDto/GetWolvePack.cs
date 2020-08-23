@@ -1,15 +1,16 @@
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
+using JosephCode.Models;
 
-namespace JosephCode.Models
+namespace JosephCode.Dtos.PackDto
 {
-    public class Pack
+    public class GetWolvePack
     {
        public int Id { get; set; }
 
        public string Name { get; set; }
 
-      [JsonIgnore]
        public List<Wolve> Wolves { get; set; }
+
+        
     }
 }
